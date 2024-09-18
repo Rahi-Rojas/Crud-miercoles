@@ -1,0 +1,73 @@
+/* Estilos generales para todo el cuerpo */
+body {
+    background-color: #f4f4f9;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+}
+
+/* Contenedor principal para centrar el contenido */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Títulos */
+h1, h2 {
+    text-align: center;
+    color: #333;
+}
+
+/* Botones personalizados */
+.btn-primary {
+    background-color: #5a67d8;
+    border-color: #5a67d8;
+}
+
+.btn-primary:hover {
+    background-color: #434190;
+    border-color: #434190;
+}
+
+.btn-success {
+    background-color: #48bb78;
+    border-color: #48bb78;
+}
+
+.btn-success:hover {
+    background-color: #2f855a;
+    border-color: #2f855a;
+}
+
+/* Estilo para formularios */
+.form-group label {
+    font-weight: bold;
+}
+
+.form-control {
+    border-radius: 0;
+    border: 1px solid #ccc;
+}
+
+/* Estilo para las tablas */
+.table {
+    background-color: #fff;
+}
+
+.table th, .table td {
+    text-align: center;
+    vertical-align: middle;
+}
+
+/* Estilo de alertas */
+.alert {
+    text-align: center;
+    font-weight: bold;
+}
+
+/* Espaciado entre elementos */
+.mt-5 {
+    margin-top: 3rem !important;
+}

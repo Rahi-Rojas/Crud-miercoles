@@ -1,0 +1,14 @@
+CREATE DATABASE bd_1809;
+
+use bd_1809;
+
+create table db_mangas(
+id int PRIMARY KEY AUTO_INCREMENT NOT NULL,
+nombre varchar(40),
+cantidad int,
+capitulos int);
+
+insert into db_mangas(nombre, cantidad, capitulos) values ('Naruto', 10, 100);
+insert into db_mangas(nombre, cantidad, capitulos) values ('Dragon ball', 5, 200);
+
+Select * from db_mangas;
